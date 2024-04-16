@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  dev_env:
+    image: node
+    environment:
+      - CERT=${CERT}
+      - KEY=${KEY}
+      - CHAIN_CERT=${CHAIN_CERT}
+    volumes:
+      - "./:/src"
+    command:
+      - node
+      - /src/app

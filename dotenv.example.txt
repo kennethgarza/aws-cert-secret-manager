@@ -1,0 +1,32 @@
+## copy and paste cert in here
+
+CERT="-----BEGIN CERTIFICATE-----
+MIIGxTCCBa2gAwIBAgITdQABcRT5qWrtS/4AZwADAAFxFDANBgkqhkiG9w0BAQ0F
+...
+HoaaWCJVuaNvg5dvdz+1pKge/osualYo4BjW5VNLWs0Is7tKwmiDvXGHULR6yuuD
+uftvw7wO6kBO
+-----END CERTIFICATE-----"
+
+## copy and paste nopassword-key in here
+
+KEY="-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA4thblVNIyFAK2PquAGMPuUU0gSmtqGEYCZkDCEpg2AaMx/CV
+...
+W1ZMpz+0hSuUDGcjYrseN7CErJxI8KF3CWHoS31sAh/Ad8u0nTpqgZEZbhDPBMqc
+Kz8avhPidIiWty61UNxOi1o2+/TYS/zBiMGRfBy/3jBWBgJWLntt
+-----END RSA PRIVATE KEY-----"
+
+## copy and paste chain in here
+
+CHAIN_CERT="-----BEGIN CERTIFICATE-----
+MIIFfzCCBGegAwIBAgITJQABQuY+67PS+Tx6/QADAAFC5jANBgkqhkiG9w0BAQ0F
+...
+RI4VGeauTZxaMKAhjLOcL226hjjBxScI2hJFPdYHLP2Woc9C6NLeHldgzCz2yejt
+/FHVQQllBf9Gsi4dXzl1wceibg==
+-----END CERTIFICATE-----"
+
+## save this file as .env
+## do not commit the .env file, it will contain sensitive information!!
+
+
+
