@@ -8,6 +8,8 @@ services:
       - CHAIN_CERT=${CHAIN_CERT}
     volumes:
       - "./:/src"
+    working_dir: /src
     command:
-      - node
-      - /src/app
+      - npm
+      - run
+      - app

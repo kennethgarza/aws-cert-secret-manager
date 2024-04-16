@@ -5,12 +5,8 @@ let convertToBase64 = str => {
     return Buffer.from(str).toString('base64')
 }
 
-let convertFromBase64 = str => {
-    return Buffer.from(str, 'base64').toString('ascii');
-}
-
 //display logo
-let logo = fs.readFileSync("/src/logo.txt", 'utf8');
+let logo = fs.readFileSync("./logo.txt", 'utf8');
 
 if (null !== logo) {
     console.log(logo);
@@ -28,7 +24,7 @@ let values = {
 
 // console.log(values);
 
-fs.writeFileSync("/src/output.json", JSON.stringify(values, null, 2));
+fs.writeFileSync("./output.json", JSON.stringify(values, null, 2));
 
 console.log("done");
 
