@@ -17,9 +17,9 @@ console.log("version 1.0.0");
 console.log("");
 
 let values = {
-    site : convertToBase64(process.env.CERT),
-    key : convertToBase64(process.env.KEY),
-    chain : convertToBase64(process.env.CERT)
+    site_cert : convertToBase64(process.env.CERT),
+    site_key : convertToBase64(process.env.KEY),
+    chain_cert : convertToBase64(process.env.CERT)
 }
 
 // console.log(values);
